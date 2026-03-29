@@ -2,11 +2,11 @@
 
 app = Flask(__name__)
 
-TEMPLATE = '''<!DOCTYPE html>
-<html lang=" ja\>
+TEMPLATE = r'''<!DOCTYPE html>
+<html lang="ja">
 <head>
- <meta charset=\UTF-8\>
- <meta name=\viewport\ content=\width=device-width initial-scale=1.0\>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Flask 1ファイルサンプル!!!</title>
  <style>
  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f8ff; margin: 0; padding: 24px; }
@@ -18,7 +18,7 @@ TEMPLATE = '''<!DOCTYPE html>
  </style>
 </head>
 <body>
- <div class=\card\>
+ <div class="card">
  <h1>{{ greeting }}！</h1>
  <p>今日のおすすめ商品一覧です。</p>
  <table>
