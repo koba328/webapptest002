@@ -7,7 +7,7 @@ TEMPLATE = '''<!DOCTYPE html>
 <head>
  <meta charset=\UTF-8\>
  <meta name=\viewport\ content=\width=device-width initial-scale=1.0\>
- <title>Flask 1ファイルサンプル!!</title>
+ <title>Flask 1ファイルサンプル!!!</title>
  <style>
  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f8ff; margin: 0; padding: 24px; }
  .card { max-width: 700px; margin: 40px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 6px 16px rgba(0,0,0,0.1); }
